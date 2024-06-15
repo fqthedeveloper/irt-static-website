@@ -1429,47 +1429,47 @@ p.paragraph.two {
 
 @media(max-width:580px) {
 	.thumbnail1 img{
-		width: 200px;
-		height: 200px;
+		width: 190px;
+		height: 190px;
 	}
 
 }
 
 @media(max-width:480px) {
 	.thumbnail1 img{
-		width: 190px;
-		height: 190px;
+		width: 180px;
+		height: 180px;
 	}
 
 }
 @media(max-width:450px) {
 	.thumbnail1 img{
-		width: 165px;
-		height: 165px;
+		width: 155px;
+		height: 155px;
 	}
 
 }
 
 @media(max-width:420px) {
 	.thumbnail1 img{
-		width: 160px;
-		height: 160px;
+		width: 150px;
+		height: 150px;
 	}
 
 }
 
 @media(max-width:380px) {
 	.thumbnail1 img{
-		width: 150px;
-		height: 150px;
+		width: 140px;
+		height: 140px;
 	}
 
 }
 
 @media(max-width:300px) {
 	.thumbnail1 img{
-		width: 150px;
-		height: 150px;
+		width: 140px;
+		height: 140px;
 	}
 
 }
