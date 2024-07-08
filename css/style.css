@@ -4066,6 +4066,7 @@ h2 {
 
 .ch1{
 	text-align: center;
+	line-spacing: normal;
 }
 
 @media(max-width:680px) {
