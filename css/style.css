@@ -4203,3 +4203,51 @@ h2 {
 		
 	}
 }
+
+@media (max-width: 768px) {
+	.team_grid_info {
+	  width: 100%;
+	  float: none;
+	}
+	.team_icons {
+	  text-align: center;
+	}
+	.team_icons ul {
+	  padding: 0;
+	  margin: 0;
+	}
+	.team_icons li {
+	  display: inline-block;
+	  margin-right: 10px;
+	}
+  }
+
+
+
+
+.crew-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.crew-member {
+    flex: 1 1 calc(25% - 40px); /* 4 in a row for desktop */
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.crew-member img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .crew-member {
+        flex: 1 1 calc(50% - 40px); /* 2 in a row for mobile */
+    }
+}
