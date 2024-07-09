@@ -4066,7 +4066,7 @@ h2 {
 
 .ch1{
 	text-align: center;
-	line-spacing: normal;
+	
 }
 
 @media(max-width:680px) {
@@ -4086,7 +4086,9 @@ h2 {
 	.ch1{
 		font-size: 25px;
 		text-align: center;
+		line-break:unset;
 	}
+
 	
 	.course {
 		font-size: 15px;
