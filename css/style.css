@@ -4245,9 +4245,19 @@ h2 {
     max-width: 100%;
     height: auto;
 }
+.crew-member h3{
+	margin-top: 5px;
+}
 
 @media (max-width: 768px) {
     .crew-member {
         flex: 1 1 calc(50% - 40px); /* 2 in a row for mobile */
     }
+	.crew-member h3{
+		font-size: 15px !important;
+		margin-top: 5px;
+	}
+	.crew-member p{
+		font-size: 10px !important;
+	}
 }
