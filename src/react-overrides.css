@@ -1,0 +1,11 @@
+html, body, #root {
+  min-height: 100%;
+}
+
+* {
+  will-change: auto;
+}
+
+#legacy-content {
+  isolation: isolate;
+}
